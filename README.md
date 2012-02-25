@@ -19,5 +19,5 @@
 					=> url
 	</pre>
 3. Create initial page setup to serve up/display the data
-	-running into issues regarding xml on another domain. won't load. see about using curl
+	- running into issues regarding xml on another domain. won't load. see about using curl
 4. Do small test of manually getting URL to see possibilities of streaming
