@@ -3,7 +3,7 @@
 1. The purpose of this app is to pull the mp3 files from a page and list them to be streamed by a player
 2. If meta data is available such as \<title\>, \<description\>, and \<date\>, that will be attempted to be displayed
 3. The main goal is to be able to have this app scrape a website of data and have a mechanism to stream these audio files.
-4. This will be initially used to externally provide an interface with easier access to these audio files with the end goald to stream on mobile devices.
+4. This will be initially used to externally provide an interface with easier access to these audio files with the end goal of streamin the audio on mobile devices. Note: look to see if can only be done through streaming server.
 
 0.1 - Road Map
 ---
