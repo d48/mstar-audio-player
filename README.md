@@ -11,11 +11,12 @@
 1. ~~Review current website setup. See how files are listed and if there is a pattern~~
 	Found source URL for listing of all files: http://morningstarvalley.org/membersmessages/flash/playlist.xml
 2. Define needs of application
-	a. Parse xml and create tree of data to easily view
+	- Parse xml and create tree of data to easily view
 	<pre>
-	b. Metadata => track
+	 xml format => track
 					=> title
 					=> artist
 					=> url
 	</pre>
-3. Do small test of manually getting URL to see possibilities of streaming
+3. Create initial page setup to serve up/display the data
+4. Do small test of manually getting URL to see possibilities of streaming
