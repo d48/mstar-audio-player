@@ -23,3 +23,9 @@
 	- can use YQL api to pull data cross-domain
 	- rest query: http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22http%3A%2F%2Fmorningstarvalley.org%2Fmembersmessages%2Fflash%2Fplaylist.xml%22&format=json&diagnostics=true&callback=cbfunc
 4. Do small test of manually getting URL to see possibilities of streaming
+
+0.2 - Dev Notes
+---
+
+1. Formatting of original file is malforming <code>\<title\></code> tag since they include date and are nto consistent.
+2. xml file doesn't have a \<date\> node.
