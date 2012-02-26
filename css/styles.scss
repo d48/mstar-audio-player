@@ -1,0 +1,32 @@
+$blue: #3bbfce;
+$black: #000;
+$lightgray: #ccc;
+
+$fontLarge: 30px;
+$fontMedium: 22px;
+$fontSmall: 14px;
+$fontTiny: 10px;
+
+$paddingLarge: 20px;
+$paddingMedium: 10px;
+$paddingSmall: 5px;
+$marginLarge: 20px;
+$marginMedium: 10px;
+$marginSmall: 5px;
+
+$rounded: 7px; 
+audio, header, section { display: block; }
+audio { margin-top: $marginMedium; }
+body { 
+	font: {
+		family: "Arial", sans-serif; 
+		size: 13px; 
+	}
+	padding: $paddingMedium $paddingLarge; 
+}
+#playlist{ 
+	list-style-type: none; margin: 0; padding: 0; width: 800px; 
+	h2 { font-size: $fontSmall; }
+	li { border-top: 1px solid $lightgray; margin: $marginLarge 0; } 
+	li:first-child { border-top: none; }
+}

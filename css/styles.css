@@ -1,2 +1,23 @@
-body { font-family: "Arial", sans-serif; font-size: 13px; }
-#results { width: 800px; }
+audio, header, section {
+  display: block; }
+
+audio {
+  margin-top: 10px; }
+
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  padding: 10px 20px; }
+
+#playlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 800px; }
+  #playlist h2 {
+    font-size: 14px; }
+  #playlist li {
+    border-top: 1px solid #cccccc;
+    margin: 20px 0; }
+  #playlist li:first-child {
+    border-top: none; }

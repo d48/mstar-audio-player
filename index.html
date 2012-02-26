@@ -13,18 +13,15 @@
 
 	<body>
 		<header id="header">
-			<h1>Audio Messages</h1>
+			<h1>Morning Star - Audio Messages</h1>
 		</header>
 
 		<section id="content">
-    			<div id="results"></div>
+    			<ul id="playlist"></ul>
 		</section>
 
-		<section>
-		</section>
-		
 		<script type="text/javascript" src="js/scripts.js"></script>
-    		<script src='http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22http%3A%2F%2Fmorningstarvalley.org%2Fmembersmessages%2Fflash%2Fplaylist.xml%22&format=json&diagnostics=true&callback=myplaylist'>
+    		<script src='http://query.yahooapis.com/v1/public/yql?q=select%20track%20from%20xml%20where%20url%3D%22http%3A%2F%2Fmorningstarvalley.org%2Fmembersmessages%2Fflash%2Fplaylist.xml%22%20LIMIT%203&format=json&diagnostics=true&callback=myplaylist'>
 		</script>
 	</body>
 </html>
