@@ -19,5 +19,7 @@
 					=> url
 	</pre>
 3. Create initial page setup to serve up/display the data
-	- running into issues regarding xml on another domain. won't load. see about using curl
+	- ~~running into issues regarding xml on another domain. won't load. see about using curl~~
+	- can use YQL api to pull data cross-domain
+	- rest query: http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22http%3A%2F%2Fmorningstarvalley.org%2Fmembersmessages%2Fflash%2Fplaylist.xml%22&format=json&diagnostics=true&callback=cbfunc
 4. Do small test of manually getting URL to see possibilities of streaming

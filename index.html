@@ -17,9 +17,14 @@
 		</header>
 
 		<section id="content">
-			<p>List from xml playlist</p>	
+    			<div id="results"></div>
+		</section>
+
+		<section>
 		</section>
 		
 		<script type="text/javascript" src="js/scripts.js"></script>
+    		<script src='http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D%22http%3A%2F%2Fmorningstarvalley.org%2Fmembersmessages%2Fflash%2Fplaylist.xml%22&format=json&diagnostics=true&callback=myplaylist'>
+		</script>
 	</body>
 </html>
