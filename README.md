@@ -26,6 +26,7 @@
 5. ~~Implement SASS for css pre-processing for variables and mixin use~~
 6. Cross-browser and platform solution
 7. mobile prototype
+8. use templating system for markup and dynamic loading of content. Look into jQuery templates, Underscore.js, Handlebars.js, Moustache.js and any other javascript templating engine. Compare.
 
 0.2 - Dev Notes
 ---
