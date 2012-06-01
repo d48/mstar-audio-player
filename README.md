@@ -1,5 +1,8 @@
 # Introduction
 
+Sample base application of work in progress can be found here:
+http://design48.github.com/mstar-audio-player/
+
 1. The purpose of this app is to pull the mp3 files from a page and list them to be streamed by a player
 2. If meta data is available such as \<title\>, \<description\>, and \<date\>, that will be attempted to be displayed
 3. The main goal is to be able to have this app scrape a website of data and have a mechanism to stream these audio files.
@@ -27,6 +30,7 @@
 6. Cross-browser and platform solution
 7. mobile prototype
 8. use templating system for markup and dynamic loading of content. Look into jQuery templates, Underscore.js, Handlebars.js, Moustache.js and any other javascript templating engine. Compare.
+9. Integrate lazy load scroller to show more audio clips to play when user scrolls down
 
 0.2 - Dev Notes
 ---
